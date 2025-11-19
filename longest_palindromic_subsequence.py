@@ -1,4 +1,5 @@
 import sys
+
 def longest_palindromic_subsequence(s: str) -> tuple[int, str]:
     return (0, "")
 
