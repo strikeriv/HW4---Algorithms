@@ -2,11 +2,10 @@ import sys
 from collections import deque, defaultdict
 
 def dag_longest_path(n: int, edges: list[tuple[int,int,int]]) -> tuple[int, list[int]]:
-    # oh shit i wasn't logged in to GCM
+
     
     return (0, [0])
-
-def solve():
+ 
     it = iter(sys.stdin.read().strip().split())
     n = int(next(it)); m = int(next(it))
     edges: list[tuple[int, int, int]] = []
